@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20200912-0624-Experimental"
+	Name="Seans-MacBook-Air.local"
+	Generator="ctest-3.18.2"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="11.0.3.11030032"
+	OSName="Mac OS X"
+	Hostname="Seans-MacBook-Air.local"
+	OSRelease="10.15.6"
+	OSVersion="19G2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="61"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="1600"
+	>
+	<Testing>
+		<StartDateTime>Sep 12 16:27 AEST</StartDateTime>
+		<StartTestTime>1599892025</StartTestTime>
+		<TestList>
+			<Test>./src/test-maths</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>test-maths</Name>
+			<Path>./src</Path>
+			<FullName>./src/test-maths</FullName>
+			<FullCommandLine>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/testMaths</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Child aborted</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>0</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.570022</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/testMaths</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Assertion failed: (0), function test_mat4f_union, file /Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/src/tests/testMaths.c, line 22.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 12 16:27 AEST</EndDateTime>
+		<EndTestTime>1599892026</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

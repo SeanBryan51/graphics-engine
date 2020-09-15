@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20200915-1256-Experimental"
+	Name="Seans-MacBook-Air.local"
+	Generator="ctest-3.18.2"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="11.0.3.11030032"
+	OSName="Mac OS X"
+	Hostname="Seans-MacBook-Air.local"
+	OSRelease="10.15.6"
+	OSVersion="19G2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="61"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="3072"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="1600"
+	>
+	<Testing>
+		<StartDateTime>Sep 15 22:56 AEST</StartDateTime>
+		<StartTestTime>1600174615</StartTestTime>
+		<TestList>
+			<Test>./src/test-vec2</Test>
+			<Test>./src/test-mat4</Test>
+			<Test>./src/test-vec3</Test>
+			<Test>./src/test-vec4</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test-vec2</Name>
+			<Path>./src</Path>
+			<FullName>./src/test-vec2</FullName>
+			<FullCommandLine>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec2</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.333385</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec2</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test-mat4</Name>
+			<Path>./src</Path>
+			<FullName>./src/test-mat4</FullName>
+			<FullCommandLine>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_mat4</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.636111</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_mat4</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test-vec3</Name>
+			<Path>./src</Path>
+			<FullName>./src/test-vec3</FullName>
+			<FullCommandLine>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec3</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.939309</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec3</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test-vec4</Name>
+			<Path>./src</Path>
+			<FullName>./src/test-vec4</FullName>
+			<FullCommandLine>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec4</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.24091</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec4</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 15 22:56 AEST</EndDateTime>
+		<EndTestTime>1600174616</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

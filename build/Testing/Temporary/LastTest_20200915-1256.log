@@ -1,0 +1,63 @@
+Start testing: Sep 15 22:56 AEST
+----------------------------------------------------------
+2/4 Testing: test-vec2
+2/4 Test: test-vec2
+Command: "/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec2"
+Directory: /Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src
+"test-vec2" start time: Sep 15 22:56 AEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"test-vec2" end time: Sep 15 22:56 AEST
+"test-vec2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/4 Testing: test-mat4
+1/4 Test: test-mat4
+Command: "/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_mat4"
+Directory: /Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src
+"test-mat4" start time: Sep 15 22:56 AEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"test-mat4" end time: Sep 15 22:56 AEST
+"test-mat4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test-vec3
+3/4 Test: test-vec3
+Command: "/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec3"
+Directory: /Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src
+"test-vec3" start time: Sep 15 22:56 AEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.94 sec
+----------------------------------------------------------
+Test Passed.
+"test-vec3" end time: Sep 15 22:56 AEST
+"test-vec3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: test-vec4
+4/4 Test: test-vec4
+Command: "/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src/test_vec4"
+Directory: /Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/build/src
+"test-vec4" start time: Sep 15 22:56 AEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.24 sec
+----------------------------------------------------------
+Test Passed.
+"test-vec4" end time: Sep 15 22:56 AEST
+"test-vec4" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Sep 15 22:56 AEST

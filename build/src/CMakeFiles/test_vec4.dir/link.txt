@@ -1,0 +1,1 @@
+/usr/bin/clang -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_vec4.dir/tests/test_vec4.c.o -o test_vec4  libmaths.a 

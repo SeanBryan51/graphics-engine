@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/src/utils/fileutils.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+fileutils.h
+/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/src/utils/fileutils.h
+
+/Users/seanbryan/Documents/Physics/phys-programming/side-projects/graphics-engine/src/utils/fileutils.h
+
