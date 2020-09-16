@@ -1,1 +1,0 @@
-/usr/bin/clang -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/main.c.o -o main  /usr/local/lib/libglfw.3.3.dylib -lGLEW -framework Cocoa -framework OpenGL -framework IOKit libutils.a libgraphics.a libmaths.a 

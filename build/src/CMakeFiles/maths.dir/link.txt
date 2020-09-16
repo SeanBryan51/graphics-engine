@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmaths.a CMakeFiles/maths.dir/maths/vec2.c.o CMakeFiles/maths.dir/maths/vec3.c.o CMakeFiles/maths.dir/maths/vec4.c.o CMakeFiles/maths.dir/maths/mat4.c.o CMakeFiles/maths.dir/maths/helper.c.o
-/usr/bin/ranlib libmaths.a

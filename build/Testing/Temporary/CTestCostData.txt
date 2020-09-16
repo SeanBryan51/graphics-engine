@@ -1,6 +1,0 @@
-test-maths 4 0.419171
-test-mat4 4 0.838
-test-vec2 4 0.830671
-test-vec3 4 0.828706
-test-vec4 4 0.856207
----
