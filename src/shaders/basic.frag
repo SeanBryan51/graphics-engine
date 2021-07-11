@@ -1,10 +1,17 @@
 #version 330 core
-out vec4 FragColor;
 
-uniform vec4 ourColor;
+in vec3 position;
 
-void main()
-{
-    //FragColor = vec4(0.5, 0.0, 0.0, 1.0);
-    FragColor = ourColor;
+out vec4 colour;
+
+uniform vec4 my_colour;
+uniform vec2 lightpos;
+
+void main() {
+    float len = length(position.xy - lightpos);
+
+    float intensity = 0.1 / len;
+    // float intensity = -1 + 2.0 * len * cos(10*pos.y) * sin(10*pos.x);
+
+    colour = my_colour * intensity;
 }

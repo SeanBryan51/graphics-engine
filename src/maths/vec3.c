@@ -4,16 +4,9 @@
 
 // double implementation:
 
-Vec3 vec3_create(double x, double y, double z) {
-    Vec3 new = calloc(1, sizeof(vec3));
-    new->x = x;
-    new->y = y;
-    new->z = z;
+vec3 vec3_create(double x, double y, double z) {
+    vec3 new = {x, y, z};
     return new;
-}
-
-void vec3_destroy(Vec3 v) {
-    free(v);
 }
 
 void vec3_add(vec3 *a, vec3 b, vec3 c) {
@@ -56,16 +49,9 @@ void vec3_cross(vec3 *a, vec3 b, vec3 c) {
 
 // float implementation:
 
-Vec3f vec3f_create(float x, float y, float z) {
-    Vec3f new = calloc(1, sizeof(vec3f));
-    new->x = x;
-    new->y = y;
-    new->z = z;
+vec3f vec3f_create(float x, float y, float z) {
+    vec3f new = {x, y, z};
     return new;
-}
-
-void vec3f_destroy(Vec3f v) {
-    free(v);
 }
 
 void vec3f_add(vec3f *a, vec3f b, vec3f c) {

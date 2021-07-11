@@ -14,7 +14,7 @@ struct window {
     GLFWwindow *m_window;
     bool        m_keys[MAX_KEYS];
     bool        m_mouse_buttons[MAX_BUTTONS];
-    double      m_mousex, m_mousey;
+    float       m_mousex, m_mousey;
 };
 
 static bool window_init(Window *window);
@@ -48,6 +48,13 @@ void window_destroy(Window *window) {
     free(window);
 }
 
+int window_get_width(Window *window) {
+    return window->m_width;
+}
+int window_get_height(Window *window) {
+    return window->m_height;
+}
+
 void window_clear(Window *window) {
     // TODO: what does this do?
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -69,7 +76,7 @@ bool window_mouse_button_pressed(Window *window, unsigned int button) {
     return window->m_mouse_buttons[button];
 }
 
-void window_get_mouse_position(Window *window, double *x, double *y) {
+void window_get_mouse_position(Window *window, float *x, float *y) {
     *x = window->m_mousex;
     *y = window->m_mousey;
 }
@@ -119,7 +126,7 @@ static bool window_init(Window *window) {
 
     glfwSetWindowUserPointer(window->m_window, window);
 
-    printf("%s\n", glGetString(GL_VERSION));
+    printf("Running OpenGL %s\n", glGetString(GL_VERSION));
     return true;
 }
 

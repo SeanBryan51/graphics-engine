@@ -18,6 +18,8 @@ add_library(
     utils
     utils/fileutils.c
     utils/fileutils.h
+    utils/debug.h
+    utils/debug.c
 )
 
 target_include_directories(utils PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
@@ -28,6 +30,12 @@ add_library(
     graphics/graphics.h
     graphics/window.c
     graphics/shader.c
+    graphics/buffer.c
+    graphics/vertexarray.c
+    graphics/indexbuffer.c
+    graphics/texture.c
+    graphics/stb_image.h
+    graphics/stb_image.c
 )
 
 target_include_directories(graphics PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
@@ -46,6 +54,15 @@ add_library(
 target_include_directories(maths PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
 target_link_libraries(main maths)
 
+add_library(
+    gadget_tools
+    gadget_tools/reader.h
+    gadget_tools/reader.c
+)
+
+target_include_directories(gadget_tools PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
+target_link_libraries(main gadget_tools)
+
 # configure tests:
 
 add_executable(test_mat4 tests/test_mat4.c)
@@ -63,3 +80,7 @@ add_test(test-vec3 test_vec3)
 add_executable(test_vec4 tests/test_vec4.c)
 target_link_libraries(test_vec4 maths)
 add_test(test-vec4 test_vec4)
+
+add_executable(test_helper tests/test_helper.c)
+target_link_libraries(test_helper maths)
+add_test(test-helper test_helper)

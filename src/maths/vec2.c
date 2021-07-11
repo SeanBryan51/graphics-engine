@@ -4,15 +4,9 @@
 
 // double implementation:
 
-Vec2 vec2_create(double x, double y) {
-    Vec2 new = calloc(1, sizeof(vec2));
-    new->x = x;
-    new->y = y;
+vec2 vec2_create(double x, double y) {
+    vec2 new = {x, y};
     return new;
-}
-
-void vec2_destroy(Vec2 v) {
-    free(v);
 }
 
 void vec2_add(vec2 *a, vec2 b, vec2 c) {
@@ -41,15 +35,9 @@ double vec2_magnitude(vec2 v) {
 
 // float implementation:
 
-Vec2f vec2f_create(float x, float y) {
-    Vec2f new = calloc(1, sizeof(vec2f));
-    new->x = x;
-    new->y = y;
+vec2f vec2f_create(float x, float y) {
+    vec2f new = {x, y};
     return new;
-}
-
-void vec2f_destroy(Vec2f v) {
-    free(v);
 }
 
 void vec2f_add(vec2f *a, vec2f b, vec2f c) {

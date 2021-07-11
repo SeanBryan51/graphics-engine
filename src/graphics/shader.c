@@ -47,10 +47,13 @@ void shader_set_uniform4f(Shader *shader, char *name, vec4f vector) {
     glUniform4f(glGetUniformLocation(shader->m_shader_id, name), vector.x, vector.y, vector.z, vector.w);
 }
 
-void shader_set_uniform_mat4f(Shader *shader, char *name, mat4f matrix) {
+void shader_set_uniform_mat4f(Shader *shader, char *name, mat4f *matrix) {
     glUniformMatrix4fv(glGetUniformLocation(shader->m_shader_id, name), 1, GL_FALSE, matrix->elements);
 }
 
+void shader_set_uniform1i(Shader *shader, char *name, int value) {
+    glUniform1i(glGetUniformLocation(shader->m_shader_id, name), value);
+}
 
 static GLuint shader_load(char *vertex_path, char *fragment_path) {
 
