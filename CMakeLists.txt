@@ -12,5 +12,9 @@ project(
 # set(CMAKE_VERBOSE_MAKEFILE True)
 
 enable_testing()
+list(APPEND CMAKE_CTEST_ARGUMENTS "--output-on-failure")
+
+add_subdirectory(${PROJECT_SOURCE_DIR}/dependencies/glfw)
+add_subdirectory(${PROJECT_SOURCE_DIR}/dependencies/glew)
 
 add_subdirectory(src)

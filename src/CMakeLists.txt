@@ -2,10 +2,10 @@ add_executable(main main.c)
 
 # link third party libraries:
 
-find_package(glfw3 3.3 REQUIRED)
-target_link_libraries(main glfw)
+target_include_directories(main PUBLIC ${PROJECT_SOURCE_DIR}/dependencies/glfw/include)
+target_include_directories(main PUBLIC ${PROJECT_SOURCE_DIR}/dependencies/glew/include)
 
-find_package(GLEW REQUIRED)
+target_link_libraries(main glfw)
 target_link_libraries(main GLEW)
 
 target_link_libraries(main "-framework Cocoa")
